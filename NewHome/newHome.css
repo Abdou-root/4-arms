@@ -1,0 +1,514 @@
+
+.container
+{
+
+    max-width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 60px 0;
+    gap: 10%;
+    margin-top: 70%;
+    z-index: 900;
+
+}
+
+
+.container .box{
+    position: relative;
+    width: 300px;
+    height: 350px;
+    background: #2e2e2e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container .box::before{
+    content: '';
+    position: absolute;
+    inset: -10px 50px;
+    border-top: 4px solid var(--clr);
+    border-bottom: 4px solid var(--clr);
+    z-index: -1;
+    transform: skewY(15deg);
+    transition: 0.5s ease-in-out ;
+
+}
+.container .box:hover::before{
+        transform: skewY(0deg);
+    inset: -10px 40px;
+}
+.container .box .content{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 20px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+}
+
+ .image {
+    color: var(--clr);
+    width: 40%;
+    height:20%;
+    box-shadow: 0 0 0 4px #2e2e2e, 0 0 0 6px var(--clr);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5 rem;
+    transition:0.5s ease-in-out;
+}
+
+.container .box:hover .content .image {
+    box-shadow: 0 0 0 4px #2e2e2e, 0 0 0 300px var(--clr);
+    background: var(--clr);
+    color: #2e2e2e;
+}
+.container .box .content .details h3{
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #fff;
+    transition: 0.5s ease-in-out;
+}
+
+.container .box:hover .content .details h3
+{
+    color:#2e2e2e;
+
+}
+.container .box .content .details p{
+    color: #999;
+    transition: 0.5s ease-in-out;
+}
+
+.container .box:hover .content .details p{
+    color: #2e2e2e;
+}
+
+.container .box .content .details a{
+    position: relative;
+    background: var(--clr);
+    color: #2e2e2e;
+    display: inline-block;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+}
+
+.container .box:hover .content .details a{
+background: #2e2e2e;
+color : var(--clr);
+}
+
+
+
+
+.white-lines {
+    position: absolute;
+    top: 151px;
+    left: 0;
+    width: 1570.96px;
+    height: 802.56px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: #ff182c !important;
+}
+
+.skipping-rope-bro-1 {
+    position: absolute;
+    top: 154px;
+    left: 870px;
+    width: 664px;
+    height: 664px;
+    overflow: hidden;
+}
+
+.frame-icon {
+    width: 62px;
+    height: 51px;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+.oldnav {
+    text-decoration: none;
+    color: #ff182c !important;
+    display: flex;
+}
+.arms,
+.frame-icon {
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 21px;
+    width: 191px;
+    height: 51px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-7xs);
+    font-size: var(--font-size-9xl);
+}
+
+.be-strong-be,
+.nav-bar {
+    position: absolute;
+    color: var(--sexy-rouge);
+}
+
+.nav-bar {
+    top: 28px;
+    left: 356px;
+    width: 612px;
+    height: 36px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 41px;
+    font-size: var(--font-size-11xl);
+}
+
+.be-strong-be {
+    top: 310px;
+    left: 93px;
+    font-size: 36px;
+    font-family: var(--font-nasalization);
+}
+
+.make-yourself-stronger {
+    margin: 0;
+        font-size: var(--font-size-29xl);
+            color: var(--color-gainsboro);
+            font-family: var(--font-nasalization);
+}
+
+.make-yourself-stronger-container,
+.take-our-60-second {
+    position: absolute;
+    top: 380px;
+    left: 93px;
+    font-size: var(--font-size-29xl);
+    color: var(--color-gainsboro);
+    font-family: var(--font-nasalization);
+}
+
+
+
+.buttoniconsettings {
+    position: relative;
+    width: 12px;
+    height: 12px;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+
+.button1 {
+    position: relative;
+    line-height: 20px;
+    font-size: 24px;
+    left: -15 px;
+    color: #fff;
+}
+
+.button {
+    align-self: stretch;
+    border-radius: 10px;
+    background-color: var(--sexy-rouge);
+    display: flex;
+    flex-direction: row;
+    padding: 15px 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+.login-button {
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: #fb4040;
+    cursor: auto;
+}
+
+.login-button:hover .arms {
+    background: linear-gradient(#fff, #fff), snow;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.frame-icon6 {
+    position: relative;
+    width: 92px;
+    height: 76px;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+
+.logo1 {
+    position: absolute;
+    top: 3465px;
+    left: 121px;
+    width: 191px;
+    height: 51px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-7xs);
+}
+
+.armsgmailcom,
+.div,
+.sidi-abdellah-algiers {
+    position: absolute;
+    top: 3610px;
+    left: 129px;
+    font-family: var(--font-open-sans);
+}
+
+.armsgmailcom,
+.div {
+    top: 3663px;
+    left: 128px;
+}
+
+.div {
+    top: 3727px;
+}
+
+.home-page-child {
+    top: 3610px;
+    left: 606px;
+    border-radius: var(--br-xl);
+    border: 6px solid var(--sexy-rouge);
+    box-sizing: border-box;
+    width: 412px;
+    height: 95px;
+}
+
+.give-us-your {
+    top: 3635px;
+    left: 625px;
+    font-family: var(--font-open-sans);
+    display: inline-block;
+    width: 525px;
+    height: 88px;
+    font-family: google sans;
+    font-weight: 500;
+    color: #fff;
+    font-size: 36px;
+}
+body{
+    overflow-x: hidden;
+}
+
+.home-page {
+    background-color: var(--black-like-ur-heart);
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-13xl);
+    color: var(--color-white);
+    font-family: var(--font-nasalization);
+}
+.profile {
+    position: relative;
+    border-radius: 20%;
+    width: 511px;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    text-align: left;
+    font-size: var(--font-size-5xl);
+    color: var(--color-gainsboro-200);
+    font-family: var(--font-nasalization);
+}
+
+.login-button {
+    position: absolute;
+    top: 0;
+    left: 135%;
+    border-radius: var(--br-xl);
+    background-color: #a1a0a0;
+    width: 200px;
+    height: 51px;
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-4xs) var(--padding-21xl);
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--font-size-xl);
+    color: var(--sexy-rouge);
+    z-index: 999;
+}
+
+.profile1 {
+    position: relative;
+    color: var(--sexy-rouge);
+    font-size: var(--font-size-xl);
+    font-family: var(--font-nasalization);
+    text-align: left;
+}
+
+.profile-child {
+    margin-top: 17%;
+    background-color: var(--color-white);
+    width: 430px;
+    height: 80%;
+    border-radius: 7%;
+    z-index: 999;
+}
+
+.ls {
+    position: absolute;
+    top: 99px;
+    left: 60px;
+    font-size: var(--font-size-13xl);
+}
+
+.larbi-saidchikh {
+    position: absolute;
+    top: 16%;
+    left: 27%;
+        color: var(--black-like-ur-heart);
+}
+
+.larbisckgmailcom {
+    position: absolute;
+    top: 27%;
+    left: 27%;
+    font-size: var(--font-size-xl);
+    font-family: var(--font-damion);
+    color: var(--black-like-ur-heart);
+}
+
+.my-progress {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    text-decoration: none;
+}
+
+.my-diet {
+    position: absolute;
+    top: 60%;
+    left: 10%;
+        text-decoration: none;
+}
+
+.my-supplements {
+    position: absolute;
+    top: 70%;
+    left: 10%;
+        text-decoration: none;
+}
+
+.log-out {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    color: var(--sexy-rouge);
+    text-decoration: none;
+}
+
+                        .logo {
+                            display: flex;
+                            align-items: center;
+                        }
+            
+                        .frame-icon {
+                            height: 30px;
+                            margin-right: 10px;
+                        }
+            
+                        .arms {
+                            transition: transform 0.3s ease;
+                        }
+            
+                        .arms:hover {
+                            transform: scale(1.1) rotate(0deg);
+                        }
+            
+                        .nav-bar {
+                            display: flex;
+                            justify-content: space-between;
+                        }
+
+
+                                                 @keyframes slide {
+                                                     0% {
+                                                         transform: translateX(-100%);
+                                                     }
+                        
+                                                     100% {
+                                                         transform: translateX(0);
+                                                     }
+                                                 }
+                        
+                                                 .white-lines {
+                                                     animation: slide 3s  infinite;
+                                                 }
+                        
+                                                 @keyframes bounce {
+                                                     0% {
+                                                         transform: translateY(0);
+                                                     }
+                        
+                                                     50% {
+                                                         transform: translateY(-30px);
+                                                     }
+                        
+                                                     100% {
+                                                         transform: translateY(0);
+                                                     }
+                                                 }
+                        
+                                                 .skipping-rope-bro-1 {
+                                                     animation: bounce 1s ease-in-out infinite;
+                                                 }
+                        
+                                                 .make-yourself-stronger {
+                                                     animation: changeText 3s infinite;
+                                                 }
+                        
+                                                 @keyframes changeText {
+                                                     0% {
+                                                         opacity: 0;
+                                                     }
+                        
+                                                     10% {
+                                                         opacity: 1;
+                                                     }
+                        
+                                                     30% {
+                                                         opacity: 1;
+                                                     }
+                        
+                                                     40% {
+                                                         opacity: 0;
+                                                     }
+                        
+                                                     100% {
+                                                         opacity: 0;
+                                                     }
+                                                 }

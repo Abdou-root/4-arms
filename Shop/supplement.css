@@ -1,0 +1,274 @@
+body 
+{    
+  height: 100%;
+  color: white;
+  font-family: 'Nasalization', sans-serif;  
+  background-color: #1E1E1E;
+}
+
+.login-button {
+  position: absolute;
+  top: 20px;
+  left: 1220px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gainsboro-200);
+  width: 200px;
+  height: 51px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-4xs) var(--padding-21xl);
+  font-family: 'Nasalization', sans-serif;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-size-xl);
+  color: var(--sexy-rouge);
+}
+
+.body
+{
+  background: #1E1E1E;
+  font-size: 20px; 
+  font-family: 'Nasalization', sans-serif;
+  height: 100vh;
+  
+  }
+
+  .profile {
+    position: relative;
+    border-radius: 20%;
+    width: 511px;
+    height: 733px;
+    max-width: 90%;
+    max-height: 90%;
+    text-align: left;
+    font-size: var(--font-size-5xl);
+    color: var(--black-like-ur-heart);
+    font-family: var(--font-nasalization);
+  }
+
+
+  .profile-child {
+    margin-top: 17%;
+    background-color: var(--color-gainsboro-200);
+    width: 430px;
+    height: 87%;
+    border-radius: 7%;
+  }
+
+  .ls {
+    position: absolute;
+    top: 99px;
+    left: 60px;
+    font-size: var(--font-size-13xl);
+  }
+
+  .larbi-saidchikh {
+    position: absolute;
+    top: 16%;
+    left: 27%;
+  }
+
+  .larbisckgmailcom {
+    position: absolute;
+    top: 27%;
+    left: 27%;
+    font-size: var(--font-size-xl);
+    font-family: var(--font-damion);
+    color: var(--grey-grey-800);
+  }
+
+  .my-progress {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+  }
+
+  .my-diet {
+    position: absolute;
+    top: 60%;
+    left: 10%;
+  }
+
+  .my-supplements {
+    position: absolute;
+    top: 70%;
+    left: 10%;
+  }
+
+  .log-out {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+  }
+
+  .our-supplements-and {
+    position: absolute;
+    top: 156px;
+    left: 57px;
+    color: #D9D9D9;
+  }
+
+  .banner {
+    position: relative;
+    height: 250px;
+    width: 100%;
+    font-family: 'Nasalization', sans-serif;
+
+  }
+
+  .card {
+    position: relative;
+    font-family: 'Nasalization', sans-serif;
+    max-width: 90%;
+    padding: 20px;
+    border-radius: var(--br-11xl);
+    background-color: #2B2B2E;
+    box-shadow: 7px 6px 11px 2px rgba(43, 43, 46, 0.75);
+    height: 94%;
+  }
+
+  .white-card {
+    background-color: #fff;
+    border-radius: var(--br-xl);
+    background-color: var(--color-white);
+    width: 85%;
+    height: 70%;
+    text-align: center;
+    margin-left: 8%;
+  }
+
+  .flex {
+    position: relative;
+    top: 8%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #fff;
+
+  }
+
+  .product-picture {
+    width: 90%;
+    height: 90%;
+    text-align: center;
+  }
+
+  .product-name {
+    font-weight: bold;
+    margin-top: 15px;
+    color: var(--sexy-rouge);
+    text-align: center;
+  }
+
+  .order-button {
+    position: relative;
+    background-color: var(--sexy-rouge);
+    padding: 4px;
+    border-radius: 5px;
+  }
+
+  .price {
+    position: relative;
+    bottom: 5%;
+  }
+
+
+  
+
+
+
+
+
+
+  /* NAV BAR CSS */
+
+.diet-child,
+.frame-icon {
+ position: absolute;
+ top: 0;
+ position: fixed;
+ left: 0;
+ z-index: 999;
+}
+.diet-child {
+ background-color: var(--color-darkslategray-200);
+ width: 100%;
+ height: 95px;
+ z-index: 999;
+}
+
+.frame-icon {
+ width: 62px;
+ height: 51px;
+ overflow: hidden;
+   top: 20px;
+   z-index: 999;
+}
+.arms,
+.logo {
+ position: fixed;
+ top: 20px;
+ left: 68px;
+   z-index: 999;
+}
+.logo {
+ position: fixed;
+ top: 20px;
+ left: 21px;
+ width: 191px;
+ height: 51px;
+ font-size: var(--font-size-9xl);
+   z-index: 999;
+}
+
+.home{
+ position: absolute;
+ cursor: pointer;
+ 
+}
+
+.home {
+ text-decoration: none;
+ top: calc(50% - 17.5px);
+ left: calc(50% - 306px);
+ color: inherit;
+   top: 20px;
+ position: fixed;
+}
+.diet1,
+.supplement,
+.workout {
+ top: 20px;
+ text-decoration: none;
+ position: fixed;
+ left: calc(50% + 9px);
+ top: calc(50% - 17.5px);
+ color: inherit;
+}
+.workout {
+ left: calc(50% - 171px);
+ cursor: pointer;
+ top: 20px;
+ position: fixed;
+}
+.diet1,
+.supplement {
+ top: 20px;
+ position: fixed;
+}
+.supplement {
+ left: calc(50% + 111px);
+}
+.nav-bar,
+.nav-bar1 {
+ width: 100%;
+ z-index: +999;
+}
+.nav-bar {
+ top: 10%;
+ left: 30%;
+ color: var(--sexy-rouge);
+ z-index: +999;
+}
+
